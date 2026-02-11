@@ -1,3 +1,5 @@
+# Documentation for dotnet can be found here: https://nixos.org/manual/nixpkgs/unstable/#dotnet
+
 {
   buildDotnetModule,
   dotnetCorePackages,
