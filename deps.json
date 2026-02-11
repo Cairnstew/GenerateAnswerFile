@@ -1,0 +1,32 @@
+[
+  {
+    "pname": "Ookii.BinarySize",
+    "version": "1.2.0",
+    "hash": "sha256-RJh18XANSBanOixPteZZe3m5oBcr4RkLxUlm++jmhWg="
+  },
+  {
+    "pname": "Ookii.CommandLine",
+    "version": "5.0.0",
+    "hash": "sha256-9iSS/YaB+rwChSn0PLUZXiBWDqJ4GyjnETwmemNG8b8="
+  },
+  {
+    "pname": "Ookii.Common",
+    "version": "1.0.0",
+    "hash": "sha256-u8J6JSAOp2gJBsmu9ZjiSgipoXOVpseqtYf38tlnN3g="
+  },
+  {
+    "pname": "System.IO.Pipelines",
+    "version": "9.0.4",
+    "hash": "sha256-4E3H0n6UloSxvN41xi7hltJb9+hfaFbqwb/eOQOfNsI="
+  },
+  {
+    "pname": "System.Text.Encodings.Web",
+    "version": "9.0.4",
+    "hash": "sha256-NOxnuUHtLVT+aTaThLSw8UFgF3ViEL/0ZTliM42LnlQ="
+  },
+  {
+    "pname": "System.Text.Json",
+    "version": "9.0.4",
+    "hash": "sha256-oIOqfOIIUXXVkfFiTCI9wwIJBETQqF7ZcOJv2iYuq1s="
+  }
+]
