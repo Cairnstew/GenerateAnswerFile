@@ -36,6 +36,42 @@ any other options to be available through the tool, you can
 [file an issue](https://github.com/SvenGroot/GenerateAnswerFile/issues) or
 [submit a pull request](https://github.com/SvenGroot/GenerateAnswerFile/pulls).
 
+---
+
+## Nix Usage
+
+The **Answer File Generator** can now be run directly via Nix.
+
+**Using Flakes:**
+
+```bash
+nix run github:${OWNER}/${REPO}
+```
+
+With arguments:
+
+```bash
+nix run github:${OWNER}/${REPO} -- arg1 arg2
+```
+
+**Cloning the repository:**
+
+```bash
+git clone https://github.com/<OWNER>/<REPO>.git
+cd <REPO>
+nix run
+```
+
+With arguments:
+
+```bash
+nix run -- arg1 arg2
+```
+
+This makes it easy to run the generator without manually installing dependencies, leveraging Nix’s reproducible environment.
+
+---
+
 ## Installation method
 
 The Answer File Generator supports several methods of installing Windows, which are specified using
