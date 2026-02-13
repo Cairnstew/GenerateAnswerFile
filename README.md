@@ -45,20 +45,26 @@ The **Answer File Generator** can now be run directly via Nix.
 **Using Flakes:**
 
 ```bash
-nix run github:${OWNER}/${REPO}
+nix run github:Cairnstew/GenerateAnswerFile
 ```
 
 With arguments:
 
 ```bash
-nix run github:${OWNER}/${REPO} -- arg1 arg2
+nix run github:Cairnstew/GenerateAnswerFile -- arg1 arg2
+```
+
+Help:
+
+```
+nix run github:Cairnstew/GenerateAnswerFile -- -h
 ```
 
 **Cloning the repository:**
 
 ```bash
-git clone https://github.com/<OWNER>/<REPO>.git
-cd <REPO>
+git clone https://github.com/Cairnstew/GenerateAnswerFile.git
+cd GenerateAnswerFile
 nix run
 ```
 
